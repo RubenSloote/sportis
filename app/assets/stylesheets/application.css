@@ -271,29 +271,56 @@ header img {
 }
 
 
-
-.contact {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+.contact-img {
+  margin-top: 40px;
 }
 
-.contact h2 {
+.contact-img img{
+  display: block;
+  margin: auto;
+  width: 300px;
+  border-radius: 50%;
+  box-shadow: 0px 2px 15px #888888
+}
+
+
+.contact-page h1{
+ text-align: center;
+}
+
+.contact-form {
   text-align: center;
-  margin-bottom: 50px;
 }
 
+.contact-form label {
+  font-weight: lighter;
+  font-family: 'Raleway', sans-serif;
+  font-size: 2em;
+  color: #383838;
+  margin-bottom: 10px;
+}
 
+.contact-form input {
+  width: 40%;
+  height: 30px;
+  color: #383838;
+  margin-bottom: 30px;
+}
 
-.form-sportis {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-    width: 60%;
-    display: block;
-    margin: auto;
+textarea {
+  width: 40%;
+  height: 120px;
+  margin-bottom: 30px;
+}
+
+.button {
+  display: block;
+  margin: auto;
+  font-weight: lighter;
+  font-family: 'Raleway', sans-serif;
+  width: 25%;
+  text-align: center;
+
 }
 
 footer {
@@ -412,6 +439,17 @@ footer p {
     margin-bottom: 15px;
   }
 
+  .contact-img img {
+    width: 200px;
+  }
+
+  .contact-form input, textarea {
+    width: 80%;
+  }
+
+  .button {
+    width: 100%;
+  }
 
   .home {
     display: inherit;
