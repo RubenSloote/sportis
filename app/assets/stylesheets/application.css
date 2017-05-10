@@ -320,7 +320,10 @@ textarea {
   font-family: 'Raleway', sans-serif;
   width: 25%;
   text-align: center;
+}
 
+.contact-page h3 {
+  text-align: center;
 }
 
 footer {
